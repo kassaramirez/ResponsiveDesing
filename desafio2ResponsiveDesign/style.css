@@ -9,43 +9,54 @@ html {
 }
 
 .nav_menu {
-    text-align: center;
+    text-align: right;
+    margin-top: 2rem;
 }
 
 .nav_menu li  {
     display: inline-block;
-    font-size: small; 
-    font-weight: bold;
+    font-size: 1.2rem; 
     margin: 0.5rem;
     color: rgb(25, 104, 104);
-}
-
-header img {
-    width: 100%;
-    height: 7rem;
-    object-fit: cover;
-    border-bottom: 1px solid rgb(25, 104, 104);
-}
-
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container_articulo1 {
-    display: block;
     text-align: center;
 }
 
-.articulo1 {
-    width: 80vw;
-    height: 20vh;
-    margin-top: 2rem;
+header {
+    width: 100%;
+    max-height: 5rem;
+    object-fit: cover;
+    border-bottom: 1px solid rgb(25, 104, 104); 
+}
+
+.img_logo {
+    width: 30vw;
+    height: 8vh;
+    float: left;
+    margin-left: 2rem;
+
+}
+
+.container .cajas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
     margin-bottom: 1rem;
+    width: 100%;
+}
+
+.articulo1 {
+    width: 60vw;
+    height: 30vh;
     border-radius: 5%;
+}
+
+.container_articulo1 {
+    text-align: center;
 }
 
 .container_articulo1 p {
@@ -61,13 +72,13 @@ header img {
     margin: 0.5rem;
     color: rgb(25, 104, 104);
     display: flex;
-    text-align: center;
+    justify-content: center;
     margin: 0 5rem;   
 }
 
 .hoteles {
-    width: 60vw;
-    height: 20vh;
+    width: 54vw;
+    height: 26vh;
     margin-top: 2rem;
     margin-bottom: 1rem;
     border-radius: 5%;
@@ -86,7 +97,7 @@ h3 {
 .redes {
     width: 3.5rem;
     height: 3.5rem;
-    margin:1rem;  
+    margin:1rem;
 }
 
 .titulo_div {
@@ -97,7 +108,7 @@ h3 {
 
 @media (min-width: 600px) {
 
-    .titulo_div {
+    .titulo_div .titulo {
         margin: 0 auto;
     }
     .hoteles {
@@ -106,9 +117,6 @@ h3 {
         margin-top: 2rem;
         margin-bottom: 1rem;
         border-radius: 5%;
-    }
-    .container{
-        margin: 0 3rem;
     }
     .caja1{
         width: 100%; 
@@ -139,32 +147,12 @@ h3 {
 
 
 @media (min-width: 800px) {
-
-    .titulo_div {
-        margin: 0 auto;
-    }
-    .container_articulo1 p {
-        display: flex;
-        text-align: center;
-        margin: 0 5rem;
-        margin-bottom: 1rem;
-    }
-    .articulo1 {
-        width: 50vw;
-        height: 40vh;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        border-radius: 5%;
-    }
     .hoteles {
         width: 18vw;
         height: 18vh;
         margin-top: 2rem;
         margin-bottom: 1rem;
         border-radius: 5%;
-    }
-    .container{
-        margin: 0 3rem;
     }
     .caja1{
         width: 100%; 
@@ -187,8 +175,6 @@ h3 {
     .caja8 {
         width: 33.3%;
     }
-    .footer_redes {
-        width: 100%; 
-    }
 }
+
 
