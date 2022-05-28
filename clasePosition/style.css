@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2rem;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.one {
+    border-radius: 1rem;
+    background-color: red;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 18rem;
+    text-align: center;
+    position: absolute;
+    top: 3rem;
+}
+
+#uno {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    border: 0.5px solid gray;
+}
+
+.two {
+    font-size: 1.6rem;
+    background-color: plum;
+    margin: auto;
+    border-radius: 2rem;
+    width: 50rem;
+    padding: 7rem; 
+}
+
+#dos {
+    border: 0.5px solid gray;
+}
+

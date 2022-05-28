@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*el selector univeersal * con el hmtl, son valores
+que se deben declarar siempre en un archivo de css*/
+
+
+
+/*Se hasea el tamaño en el html para que un rem este 
+anclado al valor de 10px. De forma normal 1 rem tiene un valor
+determinado de 16px.*/
+html {
+    font-size: 62.5%;
+}
+
+
+p {
+    font-size: 3rem;
+}

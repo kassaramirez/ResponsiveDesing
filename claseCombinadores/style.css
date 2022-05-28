@@ -1,0 +1,23 @@
+/*Se le aplican los estilos a todas las p que estan junto
+a un h2*/
+h2 + p {
+    color: red;
+}
+
+/*Se le aplican los estilos a todas las p que derivan de
+un h2*/
+h2 ~ p {
+    color: brown;
+}
+
+/*Se le aplican los estilos a todas las p que son hijos
+directos de un div (hijo directo)*/
+div > p {
+    color: blue;
+}
+
+/*Se le aplican los estilos a todas las p que son descendientes
+de un div (todas llas p que tengan como clase o contenedor div)*/
+div p {
+    color: rgb(0, 255, 0);
+}

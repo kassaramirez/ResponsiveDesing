@@ -1,0 +1,9 @@
+p {
+    font-size: 1em;
+}
+
+/*Los em heredan los tamaños de todas,
+las propiedades, por eso no es recomendable
+su uso, ya que si por ejemplo body tiene un tamaño
+y el div contenedor tiene uno, el em, va a considerar
+a ambos y los va a sumar*/
