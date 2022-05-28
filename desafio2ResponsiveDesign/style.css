@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav_menu {
+    text-align: center;
+}
+
+.nav_menu li  {
+    display: inline-block;
+    font-size: small; 
+    font-weight: bold;
+    margin: 0.5rem;
+    color: rgb(25, 104, 104);
+}
+
+header img {
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    border-bottom: 1px solid rgb(25, 104, 104);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_articulo1 {
+    display: block;
+    text-align: center;
+}
+
+.articulo1 {
+    width: 80vw;
+    height: 20vh;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+}
+
+.container_articulo1 p {
+    display: flex;
+    text-align: justify;
+    margin: 0 5rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    font-size: small; 
+    font-weight: bold;
+    margin: 0.5rem;
+    color: rgb(25, 104, 104);
+    display: flex;
+    text-align: center;
+    margin: 0 5rem;   
+}
+
+.hoteles {
+    width: 60vw;
+    height: 20vh;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.footer_redes {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(25, 104, 104);
+}
+
+.redes {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin:1rem;  
+}
+
+.titulo_div {
+    display: flex;
+    text-align: center;
+}
+
+
+@media (min-width: 600px) {
+
+    .titulo_div {
+        margin: 0 auto;
+    }
+    .hoteles {
+        width: 20vw;
+        height: 18vh;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5%;
+    }
+    .container{
+        margin: 0 3rem;
+    }
+    .caja1{
+        width: 100%; 
+    }
+    .caja3 {
+        width: 50%;
+    }
+    .caja4 {
+        width: 50%; 
+    }
+    .caja5 {
+        width: 50%; 
+    }
+    .caja6 {
+        width: 50%; 
+    }
+    .caja7 {
+        width: 50%; 
+    }
+    .caja8 {
+        width: 50%;
+    }
+  
+    .footer_redes {
+        width: 100%; 
+    }
+}
+
+
+@media (min-width: 800px) {
+
+    .titulo_div {
+        margin: 0 auto;
+    }
+    .container_articulo1 p {
+        display: flex;
+        text-align: center;
+        margin: 0 5rem;
+        margin-bottom: 1rem;
+    }
+    .articulo1 {
+        width: 50vw;
+        height: 40vh;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5%;
+    }
+    .hoteles {
+        width: 18vw;
+        height: 18vh;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5%;
+    }
+    .container{
+        margin: 0 3rem;
+    }
+    .caja1{
+        width: 100%; 
+    }
+    .caja3 {
+        width: 33.3%;
+    }
+    .caja4 {
+        width: 33.3%;
+    }
+    .caja5 {
+        width: 33.3%;
+    }
+    .caja6 {
+        width: 33.3%;
+    }
+    .caja7 {
+        width: 33.3%;
+    }
+    .caja8 {
+        width: 33.3%;
+    }
+    .footer_redes {
+        width: 100%; 
+    }
+}
+
